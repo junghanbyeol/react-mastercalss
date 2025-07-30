@@ -175,6 +175,7 @@ function Coin() {
       <Helmet>
         <title>{state?.name ? state.name : loading ? "Loading..." : infoData?.name}</title>
       </Helmet>
+      <Link to={`/`}> {'뒤로가기'} </Link>
       <Header>
         <Title>
           {state?.name ? state.name : loading ? "Loading..." : infoData?.name}
